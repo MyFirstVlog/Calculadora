@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/numerodivi_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numerodivi_bottton"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toEndOf="@+id/numeropto_botton"
+        app:layout_constraintTop_toBottomOf="@+id/numeromulti_botton" />
+
+    <Button
+        android:id="@+id/numeroigual_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numeroigual_botton"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/numerodivi_botton"
+        app:layout_constraintStart_toEndOf="@+id/numero0_botton"
+        app:layout_constraintTop_toBottomOf="@+id/numero3_botton" />
+
+    <Button
+        android:id="@+id/numero0_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numero0_botton"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/numeroigual_botton"
+        app:layout_constraintStart_toEndOf="@+id/numeropto_botton"
+        app:layout_constraintTop_toBottomOf="@+id/numero2_botton" />
+
+    <Button
+        android:id="@+id/numeropto_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numeropto_botton"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numero1_botton" />
+
+    <Button
+        android:id="@+id/numeromulti_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numeromulti_bottton"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toEndOf="@+id/numero1_botton"
+        app:layout_constraintTop_toBottomOf="@+id/resta_botton" />
+
+    <Button
+        android:id="@+id/numero3_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numero3_botton"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/numeromulti_botton"
+        app:layout_constraintStart_toEndOf="@+id/numero2_botton"
+        app:layout_constraintTop_toBottomOf="@+id/numero6_button" />
+
+    <Button
+        android:id="@+id/numero2_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numero2_botton"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/numero3_botton"
+        app:layout_constraintStart_toEndOf="@+id/numero1_botton"
+        app:layout_constraintTop_toBottomOf="@+id/numero5_button" />
+
+    <Button
+        android:id="@+id/numero1_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numero1_botton"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numero4_botton" />
+
+    <Button
+        android:id="@+id/resta_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="#E1BEE7"
+        android:text="@string/resta_botton"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="@+id/numero5_button"
+        app:layout_constraintTop_toBottomOf="@+id/suma_botton2" />
+
+    <Button
+        android:id="@+id/numero6_button"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="#E1BEE7"
+        android:text="@string/numero6_botton"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/resta_botton"
+        app:layout_constraintStart_toEndOf="@+id/numero5_button"
+        app:layout_constraintTop_toBottomOf="@+id/numero9_botton2" />
+
+    <Button
+        android:id="@+id/numero5_button"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="#E1BEE7"
+        android:text="@string/numero5_bottom"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/numero6_button"
+        app:layout_constraintStart_toEndOf="@+id/numero4_botton"
+        app:layout_constraintTop_toBottomOf="@+id/numero8_button2" />
+
+    <Button
+        android:id="@+id/numero4_botton"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numero4_bottom"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numero7_botton2" />
+
+    <Button
+        android:id="@+id/suma_botton2"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
+        android:background="#E1BEE7"
+        android:text="@string/suma_botton"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toEndOf="@+id/numero7_botton2"
+        app:layout_constraintTop_toBottomOf="@+id/resultado_edit_text" />
+
+    <Button
+        android:id="@+id/numero8_button2"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="35dp"
+        android:background="#E1BEE7"
+        android:text="@string/numero8"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/numero9_botton2"
+        app:layout_constraintStart_toEndOf="@+id/numero7_botton2"
+        app:layout_constraintTop_toBottomOf="@+id/resultado_edit_text" />
+
+    <Button
+        android:id="@+id/numero9_botton2"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="35dp"
+        android:background="#E1BEE7"
+        android:text="@string/numero9"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/suma_botton2"
+        app:layout_constraintStart_toEndOf="@+id/numero8_button2"
+        app:layout_constraintTop_toBottomOf="@+id/resultado_edit_text" />
+
+    <Button
+        android:id="@+id/numero7_botton2"
+        android:layout_width="60dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="35dp"
+        android:background="#E1BEE7"
+        android:shadowColor="#473030"
+        android:text="@string/numero7"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultado_edit_text" />
+
+        <TextView
+            android:id="@+id/historial_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/historial_textview"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.024"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numero0_botton" />
+
+        <TextView
+        android:id="@+id/resultado_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="#ede7f6"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/historialnum_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="#ede7f6"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="none|numberSigned|number|numberDecimal|numberPassword|phone"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/historial_textview"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/ac_button"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#E1BEE7"
+            android:text="@string/ac_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.98"
+            app:layout_constraintStart_toEndOf="@+id/historial_textview"
+            app:layout_constraintTop_toBottomOf="@+id/numerodivi_botton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

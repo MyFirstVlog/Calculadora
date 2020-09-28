@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="numero7">7</string>
+    <string name="numero8">8</string>
+    <string name="numero9">9</string>
+    <string name="suma_botton">+</string>
+    <string name="numero4_bottom">4</string>
+    <string name="numero5_bottom">5</string>
+    <string name="numero6_botton">6</string>
+    <string name="resta_botton">-</string>
+    <string name="numero3_botton">3</string>
+    <string name="numero1_botton">1</string>
+    <string name="numero2_botton">2</string>
+    <string name="numeromulti_bottton">*</string>
+    <string name="numeropto_botton">.</string>
+    <string name="numero0_botton">0</string>
+    <string name="numeroigual_botton">=</string>
+    <string name="numerodivi_bottton">/</string>
+    <string name="historial_textview">History</string>
+    <string name="ac_button">AC</string>
+</resources>
